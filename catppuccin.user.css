@@ -126,13 +126,18 @@
         $shadow = #010409
     }
     
-    /* Main background */
+    /* Main background bar */
       #hnmain {
           background-color: $crust;
       }
+      /* Background of the FAQ and main page */
+      body > center > table > tbody > tr > td {
+          background-color: $crust;
+          color: $text;
+      }
       /* Main body padding background */
       body {
-          background-color: $crust;
+          background-color: $base;
       }
       
   
@@ -215,11 +220,7 @@
       #hnmain > tbody > tr:nth-child(4) > td > center:nth-child(6) > form {
           color: $text;
       }  
-      /* Background of the FAQ */
-      body > center > table > tbody > tr > td {
-          background-color: $crust;
-          color: $text;
-      }
+     
       /* FAQ Questions */
       body > center > table > tbody > tr > td > p > b {
           color: $subtext1;
