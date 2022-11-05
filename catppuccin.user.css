@@ -256,4 +256,9 @@
     body>center>table>tbody>tr>td>b {
         color: $subtext1;
     }
+
+    /* Text post content */
+    .toptext {
+        color: $text;
+    }
 }
