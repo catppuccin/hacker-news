@@ -168,7 +168,7 @@
       
       /* New user color */
       .hnuser > font {
-          color: $red;
+          color: $green;
       }
       
       /* Story site link */
@@ -186,7 +186,7 @@
       
       /* Comment text */
       .commtext {
-          color: $text
+          color: $text;
       }
       /* Comment hyperlinks */
       .commtext a:link{
@@ -196,7 +196,7 @@
       textarea, input {
           background-color: $surface0;
           color: $text;
-          border-color: $teal
+          border-color: $teal;
       }
       
       /* Bottom footer separator bar */
@@ -211,5 +211,18 @@
       #hnmain > tbody > tr:nth-child(4) > td > center:nth-child(6) > form {
           color: $text;
       }  
+      /* Background of the FAQ */
+      body > center > table > tbody > tr > td {
+          background-color: $crust;
+          color: $text;
+      }
+      /* FAQ Questions */
+      body > center > table > tbody > tr > td > p > b {
+          color: $subtext1;
+      }
+      /* FAQ Header */
+      body > center > table > tbody > tr > td > b {
+        color: $subtext1;
+    }
   }
   
