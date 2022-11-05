@@ -227,6 +227,11 @@
         border-color: $teal;
     }
 
+    /* Poll questions */
+    td.comment>div>font {
+        color: $text;
+    }
+
     /* Bottom footer separator bar */
     #hnmain>tbody>tr:nth-child(4)>td>table>tbody>tr>td {
         background-color: $base;
