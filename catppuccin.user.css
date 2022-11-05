@@ -129,109 +129,126 @@
         $mantle    = hsl(240, 21.3%, 12%)
         $crust     = hsl(240, 22.7%, 8.6%)
     }
-    
+
     /* Main background bar */
-      #hnmain {
-          background-color: $crust;
-      }
-      /* Background of the FAQ and main page */
-      body > center > table > tbody > tr > td {
-          background-color: $crust;
-          color: $text;
-      }
-      /* Main body padding background */
-      body {
-          background-color: $base;
-      }
-      
-  
-      /* Top bar */
-      #hnmain > tbody > tr:nth-child(1) > td {
-          background-color: $peach;
-      }
-      /* Hacker News text in top bar */
-      #hnmain > tbody > tr:nth-child(1) > td > table > tbody > tr > td:nth-child(2) > span > b > a {
-          color: $surface0;
-      }
-      /* Logged-in user karma */
-      #karma {
-          color: $surface1;
-      }
-      /* Separator characters around logged-in user karma */
-      #hnmain > tbody > tr:nth-child(1) > td > table > tbody > tr > td:nth-child(3) > span {
-          color: $surface1;
-      }
-      /* Visited top bar links */
-      .pagetop a:visited {
-          color: $surface1;
-      }
-      /* Unisited top bar links */
-      .pagetop a:link{
-          color: $surface0;
-      }
-      
-      /* Links */
-      a:link{
-          color: $blue;
-      }
-      /* More link */
-      .hnmore a:link, a:visited {
-          color: $lavender;
-      }
-      
-      /* New user color */
-      .hnuser > font {
-          color: $green;
-      }
-      
-      /* Story site link */
-      .comhead a:link, .subtext a:visited {
-          color: $peach;
-      }
-      /* Story points */
-      .score {
-          color: $subtext0;
-      }
-      /* Story ranking number */
-      .title {
-          color: $lavender;
-      }
-      
-      /* Comment text */
-      .commtext {
-          color: $text;
-      }
-      /* Comment hyperlinks */
-      .commtext a:link{
-          color: $sapphire;
-      }
-      /* Comment box */
-      textarea, input {
-          background-color: $surface0;
-          color: $text;
-          border-color: $teal;
-      }
-      
-      /* Bottom footer separator bar */
-      #hnmain > tbody > tr:nth-child(4) > td > table > tbody > tr > td {
-          background-color: $base;
-      }
-      /* Search bar text field */
-      #hnmain > tbody > tr:nth-child(4) > td > center:nth-child(6) > form > input[type=text] {
-          background-color: $surface0;
-      }
-      /* Search bar text  */
-      #hnmain > tbody > tr:nth-child(4) > td > center:nth-child(6) > form {
-          color: $text;
-      }  
-     
-      /* FAQ Questions */
-      body > center > table > tbody > tr > td > p > b {
-          color: $subtext1;
-      }
-      /* FAQ Header */
-      body > center > table > tbody > tr > td > b {
+    #hnmain {
+        background-color: $crust;
+    }
+
+    /* Background of the FAQ and main page */
+    body>center>table>tbody>tr>td {
+        background-color: $crust;
+        color: $text;
+    }
+
+    /* Main body padding background */
+    body {
+        background-color: $base;
+    }
+
+
+    /* Top bar */
+    #hnmain>tbody>tr:nth-child(1)>td {
+        background-color: $peach;
+    }
+
+    /* Hacker News text in top bar */
+    #hnmain>tbody>tr:nth-child(1)>td>table>tbody>tr>td:nth-child(2)>span>b>a {
+        color: $surface0;
+    }
+
+    /* Logged-in user karma */
+    #karma {
+        color: $surface1;
+    }
+
+    /* Separator characters around logged-in user karma */
+    #hnmain>tbody>tr:nth-child(1)>td>table>tbody>tr>td:nth-child(3)>span {
+        color: $surface1;
+    }
+
+    /* Visited top bar links */
+    .pagetop a:visited {
+        color: $surface1;
+    }
+
+    /* Unisited top bar links */
+    .pagetop a:link {
+        color: $surface0;
+    }
+
+    /* Links */
+    a:link {
+        color: $blue;
+    }
+
+    /* More link */
+    .hnmore a:link,
+    a:visited {
+        color: $lavender;
+    }
+
+    /* New user color */
+    .hnuser>font {
+        color: $green;
+    }
+
+    /* Story site link */
+    .comhead a:link,
+    .subtext a:visited {
+        color: $peach;
+    }
+
+    /* Story points */
+    .score {
+        color: $subtext0;
+    }
+
+    /* Story ranking number */
+    .title {
+        color: $lavender;
+    }
+
+    /* Comment text */
+    .commtext {
+        color: $text;
+    }
+
+    /* Comment hyperlinks */
+    .commtext a:link {
+        color: $sapphire;
+    }
+
+    /* Comment box */
+    textarea,
+    input {
+        background-color: $surface0;
+        color: $text;
+        border-color: $teal;
+    }
+
+    /* Bottom footer separator bar */
+    #hnmain>tbody>tr:nth-child(4)>td>table>tbody>tr>td {
+        background-color: $base;
+    }
+
+    /* Search bar text field */
+    #hnmain>tbody>tr:nth-child(4)>td>center:nth-child(6)>form>input[type=text] {
+        background-color: $surface0;
+    }
+
+    /* Search bar text  */
+    #hnmain>tbody>tr:nth-child(4)>td>center:nth-child(6)>form {
+        color: $text;
+    }
+
+    /* FAQ Questions */
+    body>center>table>tbody>tr>td>p>b {
         color: $subtext1;
     }
-  }
-  
+
+    /* FAQ Header */
+    body>center>table>tbody>tr>td>b {
+        color: $subtext1;
+    }
+}
