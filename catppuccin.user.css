@@ -138,32 +138,36 @@
   
       /* Top bar */
       #hnmain > tbody > tr:nth-child(1) > td {
-          background-color: var(--ctp-mocha-base);
+          background-color: $peach;
       }
       /* Hacker News text in top bar */
       #hnmain > tbody > tr:nth-child(1) > td > table > tbody > tr > td:nth-child(2) > span > b > a {
-          color: $green;
+          color: $surface0;
       }
       /* Logged-in user karma */
       #karma {
-          color: $green;
+          color: $surface1;
       }
       /* Separator characters around logged-in user karma */
       #hnmain > tbody > tr:nth-child(1) > td > table > tbody > tr > td:nth-child(3) > span {
-          color: $subtext0;
+          color: $surface1;
       }
       /* Visited top bar links */
       .pagetop a:visited {
-          color: $teal;
+          color: $surface1;
+      }
+      /* Unisited top bar links */
+      .pagetop a:link{
+          color: $surface0;
       }
       
       /* Links */
       a:link{
-          color: $sky;
+          color: $blue;
       }
       /* More link */
       .hnmore a:link, a:visited {
-          color: $blue;
+          color: $lavender;
       }
       
       /* New user color */
@@ -177,7 +181,7 @@
       }
       /* Story points */
       .score {
-          color: $yellow;
+          color: $subtext0;
       }
       /* Story ranking number */
       .title {
