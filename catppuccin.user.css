@@ -130,22 +130,23 @@
         $crust     = hsl(240, 22.7%, 8.6%)
     }
 
-    /* Main background bar */
+    /* Main background */
     #hnmain {
-        background-color: $crust;
+        background-color: $base;
     }
-
-    /* Background of the FAQ and main page */
-    body>center>table>tbody>tr>td {
-        background-color: $crust;
-        color: $text;
-    }
-
     /* Main body padding background */
     body {
         background-color: $base;
     }
 
+
+    /* Background of the FAQ and main page */
+    body>center>table>tbody>tr>td {
+        background-color: $base;
+        color: $text;
+    }
+
+   
 
     /* Top bar */
     #hnmain>tbody>tr:nth-child(1)>td {
@@ -172,7 +173,7 @@
         color: $surface1;
     }
 
-    /* Unisited top bar links */
+    /* Unvisited top bar links */
     .pagetop a:link {
         color: $surface0;
     }
